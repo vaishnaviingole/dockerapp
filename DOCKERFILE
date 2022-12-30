@@ -1,0 +1,5 @@
+FROM NODE:7
+WORKDIR /DOCKERAPP
+COPY package.json/DOCKERAPP
+CMD node server.js
+EXPOSE port 3000

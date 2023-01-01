@@ -2,4 +2,4 @@ FROM node:7
 WORKDIR /dockerapp
 COPY package.json /dockerapp
 CMD node server.js
-EXPOSE port 3000
+EXPOSE 3000
